@@ -1,0 +1,45 @@
+#usuarios{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#usuarios header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#usuarios ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+#usuarios ul li picture {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    justify-content: center;
+}
+#usuarios ul li h3 {
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+}
+#usuarios ul li p { 
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    line-height: 1.5rem;
+}
+
+#test234 {
+    display: flex;
+    justify-content: center;
+    border: 1rem 1.25rem;
+    border-radius: 50%;
+    height: 300px;
+}

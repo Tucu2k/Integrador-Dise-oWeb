@@ -1,0 +1,51 @@
+body > header {
+    width: 100vw;
+    background-color: silver;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+body > header > a {
+    width: 5rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+a {
+    display: flex;
+    padding: 1rem;
+    font-weight: 700;
+    color: black;
+
+}
+
+form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body > header > picture {
+    display: flex;
+    padding: 1rem;
+    height: 100px;
+}
+
+body > header > form input[type="checkbox"] {
+    display: none;
+}
+body > header > form label {
+    width: 2rem;
+    cursor: pointer;
+}
+
+
+

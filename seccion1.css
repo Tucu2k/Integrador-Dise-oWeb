@@ -1,0 +1,106 @@
+body > main { 
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    font-weight: 550;
+}
+#content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 1rem;
+}
+
+#content p {
+    line-height: 1.5rem;
+}
+#content a {
+    background-color: silver;
+    padding: .75rem 1.25rem;
+    border-radius: 0.5rem;
+}
+#card {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    background-color: silver;
+    border-radius: 0.75rem;
+    gap: 0.5rem;
+}
+#card > picture {
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card > picture > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#card h2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+#card span {
+    background-color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 0.7rem;
+    
+}
+
+#card ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+#referencia {
+    display: flex;
+    height: 6rem;
+}
+#Carmen {
+    display: flex;
+    border: 1rem 1.25rem;
+    border-radius: 50%;
+}
+#trabajador {
+    display: flex;
+    border: 1rem;
+}
+
+#card ul li {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+}
+
+#card ul li dl {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#nombre {
+    align-self: center;
+    padding: 1rem;
+}
+#plumbing {
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1rem;
+}
+
