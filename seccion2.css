@@ -5,11 +5,39 @@
     gap: 1rem;
     padding: 1rem;
 }
+nav > a {
+    margin: 15px;
+}
 
 #usuarios header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#login {
+    background-color: black;
+    color: white;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out;
+    
+}
+#login:hover {
+    background-color: red;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+
+}
+#register {
+    background-color: black;
+    color: white;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+#register:hover {
+    background-color: red;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 #usuarios ul {
