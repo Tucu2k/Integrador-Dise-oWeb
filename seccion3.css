@@ -1,0 +1,152 @@
+#catalog { 
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    font-weight: 550;
+    
+}
+
+#electrico {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    background: rgb(163,163,163);
+background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%);
+    border-radius: 0.75rem;
+    gap: 0.5rem;
+    margin: 15px;
+}
+
+#electrico > picture {
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#electrico > picture > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+
+#electrico h2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-size: medium;
+}
+#electrico span {
+    background-color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 0.7rem;
+    
+}  
+
+#plomeria {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    background: rgb(163,163,163);
+background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%);
+    border-radius: 0.75rem;
+    gap: 0.5rem;
+    margin: 15px;
+}
+
+#plomeria > picture {
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#plomeria > picture > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+
+#plomeria h2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-size: medium;
+}
+#plomeria span {
+    background-color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 0.7rem;
+    
+} 
+
+#construction {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    background: rgb(163,163,163);
+background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%);
+    border-radius: 0.75rem;
+    gap: 0.5rem;
+    margin: 15px;
+}
+
+#construction > picture {
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#construction > picture > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+
+#construction h2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-size: medium;
+}
+#construction span {
+    background-color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 0.7rem;
+    
+}   
+
+#catalog a {
+    background-color: black;
+    padding: .75rem 1.25rem;
+    border-radius: 0.5rem;
+    color: white;
+    width: 35%;
+    padding: .5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+#catalog a:hover {
+    background-color: red;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+
+}
+#cata h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+}

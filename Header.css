@@ -4,7 +4,7 @@ body > header {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    position: relative;
+    position: sticky;
     top: 0;
     left: 0;
 }
@@ -13,6 +13,7 @@ body > header > a {
     width: 5rem;
 }
 nav {
+    
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -45,6 +46,7 @@ body > header > form input[type="checkbox"] {
 body > header > form label {
     width: 2rem;
     cursor: pointer;
+    margin: 10px;
 }
 
 
