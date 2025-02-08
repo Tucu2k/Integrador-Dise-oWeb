@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+    background-image: url(textura-de-ladrillo-z8rwfghj1lnu96u5.jpg);
+}
+
+html {
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    
+}
+
+main {
+    background-color: rgba(247, 243, 243, 0.5); /* Fondo negro con 50% de transparencia */
+    color: black; /* Texto blanco para contraste */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+    padding: 5rem;
+    margin: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+main > form {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 3rem;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: red;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 5px 5px 15px black;
+    
+}
+
+a {
+    background-color: black;
+    padding: .5rem;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: red;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#adicional {
+    
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
