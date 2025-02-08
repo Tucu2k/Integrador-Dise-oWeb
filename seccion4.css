@@ -19,7 +19,6 @@
 }
 #nombre{
     padding: .7rem;
-    background-color: grey;
     border-radius: 15px;
 }
 #nombre::placeholder {
@@ -59,4 +58,15 @@
     border: solid 1px;
     border-radius: 15px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+    color: white;
+    border-color: black;
+    margin: 1rem;
+}
+
+#enviar:hover {
+    background-color: red;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
