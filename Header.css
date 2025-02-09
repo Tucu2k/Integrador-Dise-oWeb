@@ -1,6 +1,7 @@
 body > header {
     width: 100vw;
-    background-color: silver;
+    height: 10vh;
+    background-color: rgba(207, 204, 204, 0.7);
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -16,9 +17,9 @@ nav {
     
     display: flex;
     align-items: center;
-    padding: 1rem;
     justify-content: flex-end;
     flex: 1;
+
 }
 
 a {
@@ -36,8 +37,8 @@ form {
 
 body > header > picture {
     display: flex;
-    padding: 1rem;
-    height: 100px;
+    margin: 1rem;
+    height: 70px;
 }
 
 body > header > form input[type="checkbox"] {
