@@ -10,11 +10,12 @@
     <header>
         <picture><img src="Logo.png" alt=""></picture>
         <nav>
-            <a title="Contact us" href="#">Contact</a>
-            <a title="Whitch services you can get" href="#">Catalog</a>
-            <a title="We make your life easyer" href="#">About Us</a>
+            <a href="#nombre" title="Previous Jobs">Previous Jobs</a>
+            <a title="Contact us" href="#contacto">Contact Us</a>
+            <a title="Whitch services you can get" href="#aca">Catalog</a>
+            <a title="We make your life easyer" href="#content">About Us</a>
             <a href="Login.html" id="login">Login</a>
-            <a href="#" id="register">Register</a>
+            <a href="Register.html" id="register">Register</a>
         </nav>
         <form>
             <label for="Contract-cart"> <img src="shopping-cart.png" alt=""></label>
@@ -52,7 +53,7 @@
     </main>
     <section id="usuarios">
         <header>
-            <h2>About us</h2>
+            <h2>Previous Jobs</h2>
         </header>
         <ul>
             <li>
@@ -62,7 +63,7 @@
             </li>
             <li>
                 <picture><img src="Testimonio 4.jpeg" id="test234" alt=""></picture>
-                <h3>Construction</h3>
+                <h3 id="aca">Construction</h3>
                 <p>"Exceptional construction work! Solid, precise, and delivered with top-notch quality. Truly impressive!"</p>
             </li>
             <li>
@@ -93,16 +94,19 @@
         </article>
     </section>
     <section id="contacto">
-        <h2>Contact Us</h2>
         <form action="">
+            <h2>Contact Us</h2>
             <input type="text" id="nombre" placeholder="Name" required>
             <input type="text" id="apellido" placeholder="Last Name" required>
             <input type="email" id="email" placeholder="Email" >
             <textarea name="mas" id="more" placeholder="Tell us more about what you need"></textarea>
+            <fieldset>
+                <input type="checkbox" id="newsOffers">
+                <label for="newsOffers">news and offers via email</label>
+            </fieldset>
+        <button type="submit" required id="enviar"> Send</button>
         </form>
-        <form action="" id="post" method="post">
-            <button type="submit" required id="enviar"> Send</button>
-        </form>
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.9208997351525!2d-65.28571589021637!3d-26.81064716359131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942242d671c83c2d%3A0x5d7aca43697f5b9b!2sParadisi%20Caf%C3%A9!5e0!3m2!1ses!2sar!4v1739122528654!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 </body>
 </html>

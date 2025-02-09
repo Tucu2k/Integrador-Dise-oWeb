@@ -1,11 +1,14 @@
 #contacto {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 70%;
 }
 
 #contacto > h2 {
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     padding: 1rem;
@@ -20,6 +23,7 @@
 #nombre{
     padding: .7rem;
     border-radius: 15px;
+    background-color: grey;
 }
 #nombre::placeholder {
     color: black;
@@ -69,4 +73,18 @@
     background-color: red;
     transform: scale(1.1);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+fieldset {
+    font-weight: 900;
+    background-color: rgba(247, 243, 243, 0.5); /* Fondo negro con 50% de transparencia */
+    color: black; /* Texto blanco para contraste */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+}
+
+iframe {
+    float: right;
+    width: 70%;
+    height: 300px;
 }
