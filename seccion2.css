@@ -62,6 +62,8 @@ nav > a {
     justify-content: center;
     padding: .5rem;
     line-height: 1.5rem;
+    font-weight: 900;
+    font-size: 11px;
 }
 
 #test234 {
