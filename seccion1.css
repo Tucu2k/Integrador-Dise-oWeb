@@ -112,3 +112,23 @@ background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%)
     gap: 1rem;
 }
 
+@media (max-width:768px) {
+    #card { display: none;
+        
+    }
+
+    #card h2 {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width:430px) {
+    body > main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

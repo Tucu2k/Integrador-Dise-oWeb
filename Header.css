@@ -13,13 +13,15 @@ body > header {
 body > header > a {
     width: 5rem;
 }
-nav {
-    
+body > header > nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     flex: 1;
 
+}
+#Cart {
+    width: 100%;
 }
 
 a {
@@ -33,6 +35,9 @@ a {
 form {
     display: flex;
     justify-content: flex-end;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
 }
 
 body > header > picture {
@@ -52,3 +57,33 @@ body > header > form label {
 
 
 
+@media (max-width:1200px) {
+    body > header > nav {
+        display: none;
+          
+    }
+
+    form {
+        flex: 1;
+    }
+
+    body > header > picture {
+        padding-bottom: .75rem;
+    }
+
+}
+
+@media (max-width:768px) {
+    body > header {
+        width: 100%;
+        
+    }
+
+}
+
+@media (max-width:430px) {
+    body > header {
+        width: 100%;
+    }
+    
+}

@@ -80,3 +80,23 @@ p {
     border-radius: 5px; /* Bordes redondeados (opcional) */
     display: inline;
 }
+
+@media (max-width:768px) {
+    #usuarios ul li {
+        flex-direction: column;
+        display: flex;
+        width: 30%;
+        height: auto;
+        justify-content: center;
+    }
+
+    #usuarios ul li picture {
+        display: flex;
+        justify-content: center;
+    }
+    #usuarios ul li picture img {
+        width: 100%; 
+        height: auto;
+    }
+
+}

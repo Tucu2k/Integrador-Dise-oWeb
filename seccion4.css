@@ -88,3 +88,11 @@ iframe {
     width: 70%;
     height: 300px;
 }
+
+@media (max-width:768px) {
+    #contacto > form {
+        padding-top: 2.1rem;
+        padding-right: 2rem;
+    }
+
+}
