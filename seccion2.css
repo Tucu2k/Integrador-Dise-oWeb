@@ -100,3 +100,34 @@ p {
     }
 
 }
+
+@media (max-width:430px) {
+
+    #usuarios ul {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+    }
+    #usuarios ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: .25rem;
+        font-size: 9px;
+        align-items: flex-start;
+    }
+    #usuarios ul li picture {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+       
+    }
+    #usuarios ul li picture img {
+        width: 100%; 
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+    }
+}
