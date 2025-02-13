@@ -96,3 +96,13 @@ iframe {
     }
 
 }
+
+@media (max-width:430px) {
+    #contacto {
+        display: flex;
+        flex-direction: column;
+    }
+    iframe {
+        width: 100%;
+    }
+}

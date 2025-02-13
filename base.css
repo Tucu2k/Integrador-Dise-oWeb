@@ -32,3 +32,11 @@ html {
 a {
     text-decoration: none;
 }
+
+@media (max-width:430px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

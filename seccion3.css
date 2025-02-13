@@ -150,3 +150,37 @@ background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%)
         justify-content: center;
         align-items: center;   
 }
+
+@media (max-width:430px) {
+    #catalog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #plomeria > picture > img {
+        width: 100%;
+    }
+    #plomeria {
+        width: 80%;
+        height: auto;
+    }
+    #construction { 
+        width: 80%;
+        height: auto;
+
+    }
+    #construction > picture > img {
+        width: 100%;
+    }
+
+    #electrico { 
+        width: 80%;
+        height: auto;
+    }
+    #electrico > picture > img {
+        width: 100%;
+    }
+}

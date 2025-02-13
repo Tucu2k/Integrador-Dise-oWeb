@@ -102,13 +102,23 @@ p {
 }
 
 @media (max-width:430px) {
+    #usuarios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     #usuarios ul {
         display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-content: center;
+        flex-direction: row;
+        width: 100%;
+        align-content: flex-start;
+        align-items: baseline;
+        
+    }
+    #usuarios p {
+        width: 100%;
+        font-weight: 900   
     }
     #usuarios ul li {
         display: flex;
@@ -116,12 +126,14 @@ p {
         justify-content: center;
         padding: .25rem;
         font-size: 9px;
-        align-items: flex-start;
+        align-items: center;
+        
     }
     #usuarios ul li picture {
         display: flex;
         justify-content: center;
         align-items: flex-start;
+        align-content: flex-start;
        
     }
     #usuarios ul li picture img {
@@ -129,5 +141,6 @@ p {
         height: auto;
         display: flex;
         align-items: flex-start;
+        
     }
 }
