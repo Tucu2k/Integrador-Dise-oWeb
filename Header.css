@@ -77,13 +77,11 @@ body::has(#actions input[type="checkbox"])::before{
 
 
 
-@media (max-width:1290px) {
+@media (max-width:16000px) {
     body > header > form > label {
         display: none;
     }
 }
-
-
 
 @media (max-width:1200px) {
     body > header > nav {
@@ -134,12 +132,37 @@ body::has(#actions input[type="checkbox"])::before{
 
     }
 
-
 }
 
 @media (max-width:430px) {
     body > header {
         width: 100%;
     }
+
+    body > header > form > nav {
+        position: fixed;
+        top: 5rem;
+        left: 0;
+        width: 100%;
+        background-color: rgba(199, 194, 194, 0.7);
+        border: 0.1rem solid white;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem 2rem;
+        z-index: -1;
+        border-top: 0;
+        font-weight: 900px;
+        gap: 1rem;
+        border-radius: 0 0 1rem 1rem;
+        transform: translateY(-100vh);
+        transition: all 300ms ease-in-out;
+
+    }
+    #menu_hamburguesa:checked ~ nav {
+        transform: translateY(0);
+
+    }
+
+
     
 }
