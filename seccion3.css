@@ -153,15 +153,21 @@ background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%)
 
 @media (max-width:430px) {
     #catalog {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
+    picture {
+        display: block;
+    }
+
 
     #plomeria > picture > img {
         width: 100%;
+        object-fit: cover;
     }
     #plomeria {
         width: 80%;

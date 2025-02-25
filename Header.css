@@ -138,6 +138,11 @@ body::has(#actions input[type="checkbox"])::before{
     body > header {
         width: 100%;
     }
+    form > label > img {
+        width: 100%;
+        padding: none;
+        margin: none;
+    }
 
     body > header > form > nav {
         position: fixed;
@@ -149,9 +154,9 @@ body::has(#actions input[type="checkbox"])::before{
         display: flex;
         flex-direction: column;
         padding: 1rem 2rem 2rem;
-        z-index: -1;
+        z-index: 1000;
         border-top: 0;
-        font-weight: 900px;
+        font-weight: 900;
         gap: 1rem;
         border-radius: 0 0 1rem 1rem;
         transform: translateY(-100vh);
