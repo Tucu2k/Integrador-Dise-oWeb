@@ -208,3 +208,47 @@ p {
     }
     
 }
+
+@media (max-width:640px) {
+    #usuarios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #usuarios ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+        
+    }
+    #usuarios p {
+        width: 300%;
+        font-weight: 900
+    }
+    #usuarios ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: .25rem;
+        font-size: 9px;
+        align-items: center;
+        
+    }
+    #usuarios ul li picture {
+        display: flex;
+        justify-content: center;
+        width: 200%;
+       
+    }
+    #usuarios ul li picture img {
+        width: 100%; 
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        
+    }
+    
+}
