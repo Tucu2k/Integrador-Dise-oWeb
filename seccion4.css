@@ -23,14 +23,14 @@
 #nombre{
     padding: .7rem;
     border-radius: 15px;
-    background-color: grey;
+    background-color: white;
 }
 #nombre::placeholder {
     color: black;
 }
 #apellido {
     padding: .7rem;
-    background-color: grey;
+    background-color: white;
     border-radius: 15px;
 }
 #apellido::placeholder {
@@ -38,7 +38,7 @@
 }
 #email {
     padding: .7rem;
-    background-color: grey;
+    background-color: white;
     border-radius: 15px;
 }
 #email::placeholder {
@@ -46,8 +46,9 @@
 }
 #more {
     padding: 1rem;
-    background-color: grey;
+    background-color: white;
     border-radius: 15px;
+    width: 100%;
 }
 #more::placeholder {
     color: black;
@@ -73,6 +74,11 @@
     background-color: red;
     transform: scale(1.1);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#mapa {
+    display: flex;
+    margin-bottom: 2.5rem;
 }
 
 fieldset {

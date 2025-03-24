@@ -83,6 +83,60 @@ p {
     display: inline;
 }
 
+@media (max-width:1024px) {
+
+    #usuarios ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #usuarios ul li picture {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    #usuarios ul li picture img {
+        width: 40%; 
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+@media (max-width:800px) {
+
+    #usuarios ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #usuarios ul li picture {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    #usuarios ul li picture img {
+        width: 40%; 
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
 @media (max-width:768px) {
     #usuarios ul li {
         flex-direction: column;
@@ -103,7 +157,7 @@ p {
 
 }
 
-@media (max-width:430px) {
+@media (max-width:425px) {
     #usuarios {
         display: flex;
         justify-content: center;
@@ -112,15 +166,15 @@ p {
 
     #usuarios ul {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 100%;
-        align-content: flex-start;
-        align-items: baseline;
+        align-content: center;
+        align-items: center;
         
     }
     #usuarios p {
-        width: 100%;
-        font-weight: 900   
+        width: 300%;
+        font-weight: 900
     }
     #usuarios ul li {
         display: flex;
@@ -134,8 +188,7 @@ p {
     #usuarios ul li picture {
         display: flex;
         justify-content: center;
-        align-items: flex-start;
-        align-content: flex-start;
+        width: 200%;
        
     }
     #usuarios ul li picture img {
@@ -145,4 +198,5 @@ p {
         align-items: flex-start;
         
     }
+    
 }
