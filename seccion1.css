@@ -20,13 +20,16 @@ body > main {
 
 #content p {
     line-height: 1.5rem;
+    font-size: 13px;
 }
+
 #content a {
     background-color: black;
     padding: .75rem 1.25rem;
     border-radius: 0.5rem;
     color: white;
     transition: all 0.3s ease-in-out;
+    
 }
 #content a:hover {
     background-color: red;

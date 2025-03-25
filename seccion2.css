@@ -15,11 +15,13 @@ nav > a {
     align-items: center;
 }
 
+
 #login {
     background-color: black;
     color: white;
     border-radius: 1.5rem;
     transition: all 0.3s ease-in-out;
+    padding-bottom: 1rem;
     
 }
 #login:hover {
@@ -42,10 +44,17 @@ nav > a {
 
 #usuarios ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
 }
+
+#usuarios ul li {
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
 #usuarios ul li picture {
     display: flex;
     align-items: center;
@@ -82,6 +91,20 @@ p {
     border-radius: 5px; /* Bordes redondeados (opcional) */
     display: inline;
 }
+
+@media (max-width:1440px) {
+
+    #usuarios ul li p { 
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+        line-height: 1.5rem;
+        font-weight: 900;
+        font-size: 13px;
+    }
+}
+
+
 
 @media (max-width:1024px) {
 
