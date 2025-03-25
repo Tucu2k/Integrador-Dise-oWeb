@@ -152,7 +152,7 @@ body::has(#actions input[type="checkbox"])::before{
         top: 5rem;
         left: 0;
         width: 100%;
-        background-color: rgba(199, 194, 194, 0.7);
+        background-color: rgba(238, 234, 234, 0.973);
         border: 0.1rem solid white;
         display: flex;
         flex-direction: column;
