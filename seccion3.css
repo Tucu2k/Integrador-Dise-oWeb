@@ -191,6 +191,16 @@ background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%)
     }
 }
 
+@media (max-width:800px) {
+    #catalog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
 @media (max-width:640px) {
     #catalog {
         width: 100%;
