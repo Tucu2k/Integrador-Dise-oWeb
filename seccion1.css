@@ -115,7 +115,7 @@ background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%)
     gap: 1rem;
 }
 
-@media (max-width:768px) {
+@media (max-width:800px) {
     #card { display: none;
         
     }
@@ -124,6 +124,9 @@ background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%)
         justify-content: center;
         display: flex;
         align-items: center;
+    }
+    #content p {
+        font-size: 15px;
     }
 }
 
