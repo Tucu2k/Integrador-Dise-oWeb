@@ -10,9 +10,14 @@ nav > a {
 }
 
 #usuarios header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 
@@ -50,8 +55,8 @@ nav > a {
 }
 
 #usuarios ul li {
+    
     align-items: center;
-    justify-content: space-between;
     margin: 1rem;
 }
 
@@ -63,8 +68,15 @@ nav > a {
 }
 #usuarios ul li h3 {
     display: flex;
-    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
     padding: .5rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
 }
 #usuarios ul li p { 
     display: flex;
@@ -72,7 +84,13 @@ nav > a {
     padding: .5rem;
     line-height: 1.5rem;
     font-weight: 900;
-    font-size: 11px;
+    font-size: 13px;
+    font-size: 13px;
+    background: rgba(255, 255, 255, 0.9); /* Más opaco para mejor legibilidad */
+    color: #333333; /* Gris oscuro, menos agresivo que negro puro */
+    padding: 15px;
+    border-radius: 8px;
+
 }
 
 #test234 {
@@ -193,6 +211,13 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    #usuarios h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
     }
 
     #usuarios ul {

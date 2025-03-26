@@ -15,8 +15,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
-    background: rgb(163,163,163);
-background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%);
+    background: rgb(0, 0, 0);
     border-radius: 0.75rem;
     gap: 0.5rem;
     margin: 15px;
@@ -37,6 +36,7 @@ background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%)
 
 #electrico h2 {
     display: flex;
+    color: white;
     justify-content: space-between;
     width: 100%;
     align-items: center;
@@ -44,6 +44,7 @@ background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%)
 }
 #electrico span {
     background-color: white;
+    color: black;
     padding: 0.25rem 1rem;
     border-radius: 0.7rem;
     
@@ -55,8 +56,7 @@ background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%)
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
-    background: rgb(163,163,163);
-background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%);
+    background: rgb(0, 0, 0);
     border-radius: 0.75rem;
     gap: 0.5rem;
     margin: 15px;
@@ -81,11 +81,13 @@ background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%)
     width: 100%;
     align-items: center;
     font-size: medium;
+    color: white;
 }
 #plomeria span {
     background-color: white;
     padding: 0.25rem 1rem;
     border-radius: 0.7rem;
+    color: black;
     
 } 
 
@@ -95,8 +97,7 @@ background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%)
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
-    background: rgb(163,163,163);
-background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%);
+    background: rgb(0, 0, 0);
     border-radius: 0.75rem;
     gap: 0.5rem;
     margin: 15px;
@@ -121,11 +122,13 @@ background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%)
     width: 100%;
     align-items: center;
     font-size: medium;
+    color: white;
 }
 #construction span {
     background-color: white;
     padding: 0.25rem 1rem;
     border-radius: 0.7rem;
+    color: black;
     
 }   
 
@@ -137,6 +140,7 @@ background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%)
     width: 35%;
     padding: .5rem;
     transition: all 0.3s ease-in-out;
+    border: 2px solid white;
 }
 
 #catalog a:hover {
@@ -148,7 +152,11 @@ background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(19,19,19,1) 100%)
 #cata h2 {
         display: flex;
         justify-content: center;
-        align-items: center;   
+        align-items: center; 
+        background: rgba(0, 0, 0, 0.6);
+        color: #FFFFFF;
+        padding: 5px 10px;
+        border-radius: 5px;  
 }
 
 @media (max-width:430px) {

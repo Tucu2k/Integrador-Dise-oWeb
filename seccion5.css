@@ -4,6 +4,11 @@ footer {
     align-items: center;
     background-color: none;  
 }
+
+footer section p {
+    color: white;
+    background-color: black;
+}
 @media (max-width:768px) {
     footer {
         display: flex;

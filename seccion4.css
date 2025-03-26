@@ -83,10 +83,11 @@
 
 fieldset {
     font-weight: 900;
-    background-color: rgba(247, 243, 243, 0.788); /* Fondo negro con 50% de transparencia */
-    color: black; /* Texto blanco para contraste */
-    padding: 5px 10px; /* Espaciado interno */
-    border-radius: 5px; /* Bordes redondeados (opcional) */
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
 }
 
 iframe {
