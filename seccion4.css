@@ -14,6 +14,14 @@
     padding: 1rem;
 }
 
+#contacto > form > h2 {
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
 #contacto > form {
     display: flex;
     flex-direction: column;
