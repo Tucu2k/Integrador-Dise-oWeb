@@ -54,6 +54,7 @@ body > main {
     border-radius: 0.5rem;
     color: white;
     transition: all 0.3s ease-in-out;
+    border: 2px solid white;
     
 }
 #content a:hover {
@@ -95,7 +96,7 @@ body > main {
     color: white;
     padding: 0.25rem 1rem;
     border-radius: 0.7rem;
-    
+    border: 2px solid white;
 }
 
 #card ul {
@@ -121,6 +122,11 @@ body > main {
     display: flex;
     flex-flow: row wrap;
     flex: 1;
+}
+
+#card ul li picture {
+    border: 2px solid white;
+    border-radius: 50%;
 }
 
 #card ul li dl {

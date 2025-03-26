@@ -89,6 +89,10 @@
     margin-bottom: 2.5rem;
 }
 
+#contacto form button {
+    border: solid 2px white;
+}
+
 fieldset {
     font-weight: 900;
     background: rgba(0, 0, 0, 0.6);
